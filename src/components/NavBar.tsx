@@ -46,7 +46,7 @@ export const NavBar = () => {
 
   return (
     <NavBarContainer>
-      <HomePageNav onClick={() => history.push("/")}>Tianhui</HomePageNav>
+      <HomePageNav onClick={() => history.push("/")}>恬慧</HomePageNav>
       <NavItemContainer>
         <NavItem onClick={() => history.push("/experience")}>
           experience

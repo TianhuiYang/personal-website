@@ -16,14 +16,14 @@ export const About = () => {
       <NavBar />
       <Section
         heading="Nice to (virtually) meet you, I'm Tianhui!"
-        subheading="[ tian-hway ]"
+        subheading="[ tian-hway, she/her ]"
       ></Section>
       <Section>
         <AboutContent>
           I'm a Computer Science student at the University of Waterloo with
           experience in both frontend and backend development. I am passionate
-          about using my technical knowledge to build an inclusive community
-          which supports individuals of all demographics.
+          about using my technical knowledge to build an inclusive community and
+          create solutions with large scale impact.
         </AboutContent>
         <AboutContent>
           I really enjoy the outdoors and like to go on walks and hikes when I
