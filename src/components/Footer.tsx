@@ -7,17 +7,14 @@ import LinkedIn from "../assets/linkedin.svg";
 
 const FooterContainer = styled.div`
   bottom: 0;
-  margin: 64px 0 32px;
+  margin: 32px 0;
   display: flex;
   flex-direction: row;
-  align-items: flex-bottom;
+  align-items: flex-end;
   gap: 32px;
 `;
 
-const SocialLink = styled.a``;
-
 const FooterIcon = styled.img`
-  color: pink;
   width: 18px;
 `;
 
