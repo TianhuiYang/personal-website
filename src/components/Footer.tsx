@@ -21,16 +21,32 @@ const FooterIcon = styled.img`
 export const Footer = () => {
   return (
     <FooterContainer>
-      <a href="https://github.com/tianhuiyang" target="_blank">
+      <a
+        href="https://github.com/tianhuiyang"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <FooterIcon src={GitHub}></FooterIcon>
       </a>
-      <a href="https://www.linkedin.com/in/tianhuiyang/" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/tianhuiyang/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <FooterIcon src={LinkedIn}></FooterIcon>
       </a>
-      <a href="mailto:tianhui.yang@uwaterloo.ca" target="_blank">
+      <a
+        href="mailto:tianhui.yang@uwaterloo.ca"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <FooterIcon src={Mail}></FooterIcon>
       </a>
-      <a href="https://medium.com/@tianhui" target="_blank">
+      <a
+        href="https://medium.com/@tianhui"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <FooterIcon src={Medium}></FooterIcon>
       </a>
     </FooterContainer>
