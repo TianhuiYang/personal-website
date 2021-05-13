@@ -7,15 +7,20 @@ import LinkedIn from "../assets/linkedin.svg";
 
 const FooterContainer = styled.div`
   bottom: 0;
-  margin: 32px 0;
+  margin: 24px 0;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  gap: 32px;
+  // gap: 32px;
+
+  @media (min-width: 1500px) {
+    margin: 32px 0;
+  }
 `;
 
 const FooterIcon = styled.img`
   width: 18px;
+  margin-right: 32px;
 `;
 
 export const Footer = () => {

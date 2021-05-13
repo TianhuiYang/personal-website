@@ -3,22 +3,26 @@ import { useHistory } from "react-router-dom";
 import styled from "styled-components";
 
 export const NavBarContainer = styled.div`
-  margin: 64px 0 24px;
+  margin: 48px 0 24px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
+  @media (min-width: 1500px) {
+    margin: 64px 0 24px;
+  }
 `;
 
 export const NavItemContainer = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 24px;
+  // gap: 24px;
 
   @media (max-width: 560px) {
     flex-direction: column;
     align-items: flex-end;
-    gap: 8px;
+    // gap: 8px;
   }
 `;
 
@@ -30,6 +34,11 @@ export const NavItem = styled.a`
   font-weight: 500;
   letter-spacing: 1px;
   cursor: pointer;
+  margin-left: 24px;
+
+  @media (max-width: 560px) {
+    margin: 0 0 8px;
+  }
 `;
 
 export const HomePageNav = styled.p`

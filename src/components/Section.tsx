@@ -7,8 +7,12 @@ interface SectionProps {
 }
 
 export const SectionContainer = styled.div`
-  margin: 20px 0;
+  margin: 14px 0;
   flex-direction: column;
+  
+  @media (min-width: 1500px) {
+    margin: 20px 0;
+  }
 `;
 
 export const SectionHeading = styled.div`

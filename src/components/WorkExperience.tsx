@@ -31,7 +31,7 @@ export const WorkExperience = () => {
   return (
     <Section
       heading="Work"
-      subheading="some cool places I've worked as a software engineer intern!"
+      subheading="cool places I've worked as a software engineer intern!"
     >
       {workExperienceHistory.map((experience) => {
         return (
