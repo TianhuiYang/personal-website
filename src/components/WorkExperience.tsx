@@ -10,7 +10,7 @@ const workExperienceHistory: ExperienceModel[] = [
     role: "SWE Intern",
     date: "Winter 2021",
     tech: "Angular, TypeScript, Sass",
-    description: "Building a mortgage application tracker for national clients",
+    description: "Built a mortgage application tracker for national clients",
     link: "https://www.rbcroyalbank.com/mortgages/index.html",
   },
   {
@@ -18,7 +18,7 @@ const workExperienceHistory: ExperienceModel[] = [
     role: "SWE Intern",
     date: "Summer 2020",
     tech: "Django, Socket.IO, JSX, Twilio",
-    description: "Implementing a secure file sharing platform",
+    description: "Implemented a secure file sharing platform",
     link: "https://www.titanfile.com/",
   },
 ];

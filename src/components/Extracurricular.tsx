@@ -10,7 +10,7 @@ const extracurriculars: ExperienceModel[] = [
     role: "Tech Lead",
     date: "2020",
     tech: "HTML5/CSS3, JavaScript, Bootstrap",
-    description: "Organizing the largest virtual tech conference in Canada",
+    description: "Organized the largest virtual tech conference in Canada",
     link: "https://www.cutc.ca/",
   },
   {
@@ -18,7 +18,7 @@ const extracurriculars: ExperienceModel[] = [
     role: "Backend developer",
     date: "2020",
     tech: "Node.js, Postgres, Postman",
-    description: "Building a CBT app for mothers with postpartum depression",
+    description: "Built a CBT app for mothers with postpartum depression",
     link: "https://llettonna.com/momsinmind-new/",
   },
   {
@@ -26,7 +26,7 @@ const extracurriculars: ExperienceModel[] = [
     role: "Senior National Lead",
     date: "2020",
     tech: "Product management",
-    description: "Enabling experiential learning for high school students",
+    description: "Enabled experiential learning for high school students",
     link: "https://www.illuminateuniverse.com/",
   },
 ];
