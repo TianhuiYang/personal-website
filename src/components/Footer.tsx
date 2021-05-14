@@ -4,6 +4,7 @@ import GitHub from "../assets/github.svg";
 import Mail from "../assets/envelope.svg";
 import Medium from "../assets/medium.svg";
 import LinkedIn from "../assets/linkedin.svg";
+import { FooterModel } from "../models/footer.model";
 
 const FooterContainer = styled.div`
   bottom: 0;
@@ -23,37 +24,35 @@ const FooterIcon = styled.img`
   margin-right: 32px;
 `;
 
+const socialLinks: FooterModel[] = [
+  {
+    link: "https://github.com/tianhuiyang",
+    icon: GitHub,
+  },
+  {
+    link: "https://www.linkedin.com/in/tianhuiyang/",
+    icon: LinkedIn,
+  },
+  {
+    link: "mailto:tianhui.yang@uwaterloo.ca",
+    icon: Mail,
+  },
+  {
+    link: "https://medium.com/@tianhui",
+    icon: Medium,
+  },
+];
+
 export const Footer = () => {
   return (
     <FooterContainer>
-      <a
-        href="https://github.com/tianhuiyang"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FooterIcon src={GitHub}></FooterIcon>
-      </a>
-      <a
-        href="https://www.linkedin.com/in/tianhuiyang/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FooterIcon src={LinkedIn}></FooterIcon>
-      </a>
-      <a
-        href="mailto:tianhui.yang@uwaterloo.ca"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FooterIcon src={Mail}></FooterIcon>
-      </a>
-      <a
-        href="https://medium.com/@tianhui"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FooterIcon src={Medium}></FooterIcon>
-      </a>
+      {socialLinks.map((social) => {
+        return (
+          <a href={social.link} target="_blank" rel="noopener noreferrer">
+            <FooterIcon src={social.icon}></FooterIcon>
+          </a>
+        );
+      })}
     </FooterContainer>
   );
 };
