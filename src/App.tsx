@@ -8,7 +8,6 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/" component={Experience} />
-        <Route path="/experience" component={Experience} />
         <Route path="/about" component={About} />
       </Switch>
     </Router>

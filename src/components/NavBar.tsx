@@ -48,6 +48,28 @@ export const NavItem = styled(NavLink)`
   }
 `;
 
+export const Contact = styled.a`
+  text-transform: lowercase;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-left: 24px;
+
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    text-decoration-thickness: 2px;
+    color: #748b6c;
+  }
+
+  @media (max-width: 560px) {
+    margin: 0 0 8px;
+  }
+`;
+
 export const HomePageNav = styled.p`
   text-transform: uppercase;
   font-size: 18px;
@@ -64,13 +86,13 @@ export const NavBar = () => {
     <NavBarContainer>
       <HomePageNav onClick={() => history.push("/")}>恬慧</HomePageNav>
       <NavItemContainer>
-        <NavItem to="/experience" activeStyle={{ color: "#748b6c" }}>
+        <NavItem exact to="/" activeStyle={{ color: "#748b6c" }}>
           experience
         </NavItem>
         <NavItem to="/about" activeStyle={{ color: "#748b6c" }}>
           about
         </NavItem>
-        <NavItem to="mailto:tianhui.yang@uwaterloo.ca">contact</NavItem>
+        <Contact href="mailto:tianhui.yang@uwaterloo.ca">contact</Contact>
       </NavItemContainer>
     </NavBarContainer>
   );
