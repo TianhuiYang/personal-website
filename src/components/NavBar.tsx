@@ -1,5 +1,5 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+import { NavLink, useHistory } from "react-router-dom";
 import styled from "styled-components";
 
 export const NavBarContainer = styled.div`
@@ -26,7 +26,7 @@ export const NavItemContainer = styled.div`
   }
 `;
 
-export const NavItem = styled.a`
+export const NavItem = styled(NavLink)`
   text-transform: lowercase;
   text-decoration: none;
   color: black;
@@ -35,6 +35,13 @@ export const NavItem = styled.a`
   letter-spacing: 1px;
   cursor: pointer;
   margin-left: 24px;
+
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    text-decoration-thickness: 2px;
+    color: #748b6c;
+  }
 
   @media (max-width: 560px) {
     margin: 0 0 8px;
@@ -57,13 +64,13 @@ export const NavBar = () => {
     <NavBarContainer>
       <HomePageNav onClick={() => history.push("/")}>恬慧</HomePageNav>
       <NavItemContainer>
-        <NavItem onClick={() => history.push("/experience")}>
+        <NavItem to="/experience" activeStyle={{ color: "#748b6c" }}>
           experience
         </NavItem>
-        <NavItem onClick={() => history.push("/about")}>about</NavItem>
-        <NavItem href="mailto:tianhui.yang@uwaterloo.ca" target="_blank">
-          contact
+        <NavItem to="/about" activeStyle={{ color: "#748b6c" }}>
+          about
         </NavItem>
+        <NavItem to="mailto:tianhui.yang@uwaterloo.ca">contact</NavItem>
       </NavItemContainer>
     </NavBarContainer>
   );
