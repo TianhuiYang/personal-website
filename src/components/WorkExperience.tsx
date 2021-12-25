@@ -6,6 +6,14 @@ import { Section } from "./Section";
 
 const workExperienceHistory: ExperienceModel[] = [
   {
+    company: "Intuit",
+    role: "SWE Intern",
+    date: "Fall 2021",
+    tech: "Spring, React, TypeScript, XSLT",
+    description: "Simplifying financial tasks for millions of users",
+    link: "https://www.intuit.com/",
+  },
+  {
     company: "RBC",
     role: "SWE Intern",
     date: "Winter 2021",

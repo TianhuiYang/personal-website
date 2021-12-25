@@ -23,7 +23,7 @@ export const Header = styled.div`
 export const Description = styled.p`
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin: 8px 0;
+  margin: 4px 0;
   font-size: 12px;
   line-height: 1.5;
 `;
