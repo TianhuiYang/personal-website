@@ -10,7 +10,7 @@ const workExperienceHistory: ExperienceModel[] = [
     role: "SWE Intern",
     date: "Fall 2021",
     tech: "Spring, React, TypeScript, XSLT",
-    description: "Simplifying financial tasks for millions of users",
+    description: "Simplified financial tasks for millions of users",
     link: "https://www.intuit.com/",
   },
   {
