@@ -22,7 +22,7 @@ const workExperienceHistory: ExperienceModel[] = [
     link: "https://www.rbcroyalbank.com/mortgages/index.html",
   },
   {
-    company: "TitanFile Inc.",
+    company: "TitanFile",
     role: "SWE Intern",
     date: "Summer 2020",
     tech: "Django, Socket.IO, JSX, Twilio",

@@ -19,7 +19,7 @@ const extracurriculars: ExperienceModel[] = [
     date: "2020",
     tech: "Node.js, Postgres, Postman",
     description: "Built a CBT app for mothers with postpartum depression",
-    link: "https://llettonna.com/momsinmind-new/",
+    link: "https://llettonna.com/momsinmind/",
   },
   {
     company: "Illuminate Universe",
