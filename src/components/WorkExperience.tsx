@@ -6,6 +6,14 @@ import { Section } from "./Section";
 
 const workExperienceHistory: ExperienceModel[] = [
   {
+    company: "Amazon Web Services",
+    role: "SWE Intern",
+    date: "Summer 2022",
+    tech: "S3, React, TypeScript, Axios, BaseWeb",
+    description: "Introduced an API management portal",
+    link: "https://aws.amazon.com/api-gateway/",
+  },
+  {
     company: "Intuit",
     role: "SWE Intern",
     date: "Fall 2021",

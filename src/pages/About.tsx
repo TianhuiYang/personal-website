@@ -26,9 +26,9 @@ export const About = () => {
           create solutions with large scale impact.
         </AboutContent>
         <AboutContent>
-          I really enjoy staying active and the general outdoors. Since the pandemic began, I've become a huge plant person and
-          have built a nice collection (with the intent to continue expanding
-          hehe). I also really like matcha and dark chocolate!
+          I really enjoy staying active and the general outdoors. Ask me about
+          the mountains I've climbed and places I've explored. I also really
+          like matcha and dark chocolate!
         </AboutContent>
         <AboutContent>
           With so much more to learn, I am always open to exploring new
