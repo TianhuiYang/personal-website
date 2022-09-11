@@ -1,5 +1,5 @@
 import React from "react";
-import { AppContainer } from "../globalStyles";
+import { AppContainer, Link } from "../globalStyles";
 import { NavBar } from "../components/NavBar";
 import { Section } from "../components/Section";
 import { Footer } from "../components/Footer";
@@ -20,10 +20,13 @@ export const About = () => {
       ></Section>
       <Section>
         <AboutContent>
-          I'm a Computer Science student at the University of Waterloo with
-          experience in both frontend and backend development. I am passionate
-          about using my technical knowledge to build an inclusive community and
-          create solutions with large scale impact.
+          I'm a Computer Science student at the University of Waterloo and
+          recently wrapped up an internship at{" "}
+          <Link href="https://aws.amazon.com/api-gateway/" target="_blank">
+            AWS
+          </Link>
+          . I am passionate about using my technical knowledge to build an
+          inclusive community and create solutions with large scale impact.
         </AboutContent>
         <AboutContent>
           I really enjoy staying active and the general outdoors. Ask me about
@@ -36,7 +39,6 @@ export const About = () => {
           connecting. :)
         </AboutContent>
       </Section>
-
       <Footer />
     </AppContainer>
   );
