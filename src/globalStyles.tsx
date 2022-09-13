@@ -4,7 +4,7 @@ export const AppContainer = styled.div`
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  max-width: 800px;
+  max-width: 680px;
   height: 100%;
 
   @media (max-width: 800px) {
