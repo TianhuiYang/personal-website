@@ -21,7 +21,7 @@ export const About = () => {
       <Section>
         <AboutContent>
           I'm a Computer Science student at the University of Waterloo and am interning at  
-          <Link href="https://corporate.roblox.com/trust-safety/" target="_blank">
+          <Link href="https://corp.roblox.com/" target="_blank">
             Roblox
           </Link>
           as a SWE intern on Trust & Safety. I am passionate about using my technical knowledge to build an
