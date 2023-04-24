@@ -20,12 +20,11 @@ export const About = () => {
       ></Section>
       <Section>
         <AboutContent>
-          I'm a Computer Science student at the University of Waterloo and
-          recently wrapped up an internship at{" "}
-          <Link href="https://aws.amazon.com/api-gateway/" target="_blank">
-            AWS
+          I'm a Computer Science student at the University of Waterloo and am interning at Roblox 
+          <Link href="https://corporate.roblox.com/trust-safety/" target="_blank">
+            Roblox
           </Link>
-          . I am passionate about using my technical knowledge to build an
+          as a SWE intern on Trust & Safety. I am passionate about using my technical knowledge to build an
           inclusive community and create solutions with large scale impact.
         </AboutContent>
         <AboutContent>
