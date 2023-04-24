@@ -6,6 +6,14 @@ import { Section } from "./Section";
 
 const workExperienceHistory: ExperienceModel[] = [
   {
+    company: "Roblox",
+    role: "SWE Intern",
+    date: "Winter 2023",
+    tech: "Pandas, Scikit-learn, SQL, Spark, Airflow",
+    description: "Introduced an API management portal",
+    link: "https://corporate.roblox.com/trust-safety/",
+  },
+  {
     company: "Amazon Web Services",
     role: "SWE Intern",
     date: "Summer 2022",
