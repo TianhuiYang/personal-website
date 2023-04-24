@@ -10,7 +10,7 @@ const workExperienceHistory: ExperienceModel[] = [
     role: "SWE Intern",
     date: "Winter 2023",
     tech: "Pandas, Scikit-learn, SQL, Spark, Airflow",
-    description: "Introduced an API management portal",
+    description: "Automated inappropriate game detection methods",
     link: "https://corporate.roblox.com/trust-safety/",
   },
   {
