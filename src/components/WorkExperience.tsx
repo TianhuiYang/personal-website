@@ -6,6 +6,14 @@ import { Section } from "./Section";
 
 const workExperienceHistory: ExperienceModel[] = [
   {
+    company: "Datadog",
+    role: "SWE Intern",
+    date: "Summer 2023",
+    tech: "Python, datetime, pytz, expression trees",
+    description: "Built a customizable query function to support timeshifting",
+    link: "https://docs.datadoghq.com/dashboards/querying/",
+  },
+  {
     company: "Roblox",
     role: "SWE Intern",
     date: "Winter 2023",
