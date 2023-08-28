@@ -44,15 +44,7 @@ const workExperienceHistory: ExperienceModel[] = [
     tech: "Angular, TypeScript, Sass",
     description: "Built a mortgage application tracker for national clients",
     link: "https://www.rbcroyalbank.com/mortgages/index.html",
-  },
-  {
-    company: "TitanFile",
-    role: "SWE Intern",
-    date: "Summer 2020",
-    tech: "Django, Socket.IO, JSX, Twilio",
-    description: "Implemented a secure file sharing platform",
-    link: "https://www.titanfile.com/",
-  },
+  }
 ];
 
 const WorkExpContainer = styled.div`
